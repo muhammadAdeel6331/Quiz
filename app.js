@@ -64,9 +64,9 @@ function checking(){
         //alert('Question 5 is correct')
     }
     else{
-        alert( 'Question 5 is not correct');    
+        //alert( 'Question 5 is not correct');    
     }
-    alert("Your result is : "+ result)
+    
 
 
     // var divmain= document.getElementById("main")
@@ -81,10 +81,40 @@ function checking(){
     // para.appendChild(paratext)
     para.innerHTML = resultt
     console.log(para)
-    var text ="your res"
     divvv.appendChild(para)
-
+ function empty(){
+    var rr =" "
+    para.innerHTML = rr
+    divvv.appendChild(para)
+ }
     
+ function unchek(){
+     right_a_1.checked=false;
+     q1_a2.checked = false;
+     q1_a3.checked = false;
+     q1_a4.checked = false;
+
+     right_a_2.checked=false;
+     q2_a2.checked = false;
+     q3_a3.checked = false;
+     q4_a4.checked = false;
+     
+     right_a_3.checked=false;
+     q3_a2.checked = false;
+     q3_a3.checked = false;
+     q3_a4.checked = false;
+     
+     right_a_4.checked=false;
+     q1_a2.checked = false;
+     q1_a3.checked = false;
+     q1_a4.checked = false;
+     
+     right_a_5.checked=false;
+     q5_a2.checked = false;
+     q5_a3.checked = false;
+     q5_a4.checked = false;
+     
+ }
     
 
 
